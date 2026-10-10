@@ -11,5 +11,3 @@ After damage, surviving gloom moves one tile left; then the next scheduled arriv
 **Undo** restores the full state, including the selected flower tool. **Reset** starts the chosen garden again and can also be undone. Nothing runs while you think, no audio plays, and no state is saved or uploaded. This release has four authored gardens and two flower types; no endless generator or multiplayer.
 
 Run `npm test`. Tests execute complete winning plans and check pulse cycles, bloom termination, invalid placements, seed conservation, damage/movement order, immutable previews and defeat. Tests do not establish human playtesting or subjective difficulty.
-
-Original implementation inspired by Arena's spatial crowd management, transformed into a quiet turn-based connection puzzle. Future depth, not shipped: branching authored campaigns, reusable challenge seeds and a garden editor.
